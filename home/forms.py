@@ -23,3 +23,6 @@ class BookingForm(forms.ModelForm):
             'booking_date':'Booking Date'
             
         }
+
+
+
