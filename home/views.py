@@ -21,7 +21,7 @@ def booking(request):
     
     form=BookingForm()
     dict_form={
-        'form' :form
+        'forms' :form
     }
     return render(request,'booking.html',dict_form)
 
